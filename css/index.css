@@ -23,10 +23,36 @@ h1{
     font-weight: 900;
 }
 
+/* sezione 2 */
+
+.sotto-sezione img {
+    width: 80px;
+    float: left;
+}
+
+.descrizione-persona{
+    float: left;
+    width: calc(100% - 80px );
+    text-align: left;
+    padding: 10px 5px;
+}
+
+#parte1::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .sotto-sezione{
     float: left;
-    width: calc(100% / 3 );
-    background-color: aqua;
-    height: 200px;
-    border: 1ps solid black;
+    width: calc(100% / 3 - 20px);
+    background-color:black;
+    color: white;
+    margin: 10px;
+}
+
+.sotto-sezione::after{
+    display: table;
+    clear: both;
+    content: "";
 }
