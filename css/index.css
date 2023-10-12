@@ -17,10 +17,11 @@ main{
 
 #sezione1 p{    
     font-family: 'Nunito', sans-serif;
+    margin: 20px 0px;
 }
 
 h1{
-    margin: 20px;
+    padding: 20px 0px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: rgb(255, 0, 157);
@@ -29,11 +30,11 @@ h1{
 
 /* sezione 2 */
 
-#parte1{
+#sezione2 .team:first-child{
     margin: 20px 0px;
 }
 
-#parte1::after, #parte2::after{
+.team::after, .sotto-sezione::after{
     display: table;
     content: "";
     clear: both;
@@ -45,12 +46,6 @@ h1{
     background-color:black;
     color: white;
     margin: 10px;
-}
-
-.sotto-sezione::after{
-    display: table;
-    clear: both;
-    content: "";
 }
 
 .sotto-sezione img {
