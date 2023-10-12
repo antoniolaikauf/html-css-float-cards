@@ -10,10 +10,13 @@
 main{
     width: 70%;
     margin: 0px auto;
-    text-align: center;
 }
 
 /* sezione 1 */
+
+#sezione1{
+    text-align: center;
+}
 
 #sezione1 p{    
     font-family: 'Nunito', sans-serif;
