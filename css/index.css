@@ -15,6 +15,10 @@ main{
 
 /* sezione 1 */
 
+#sezione1 p{    
+    font-family: 'Nunito', sans-serif;
+}
+
 h1{
     margin: 20px;
     font-family: 'Lato', sans-serif;
@@ -25,19 +29,11 @@ h1{
 
 /* sezione 2 */
 
-.sotto-sezione img {
-    width: 80px;
-    float: left;
+#parte1{
+    margin: 20px 0px;
 }
 
-.descrizione-persona{
-    float: left;
-    width: calc(100% - 80px );
-    text-align: left;
-    padding: 10px 5px;
-}
-
-#parte1::after{
+#parte1::after, #parte2::after{
     display: table;
     content: "";
     clear: both;
@@ -56,3 +52,30 @@ h1{
     clear: both;
     content: "";
 }
+
+.sotto-sezione img {
+    width: 80px;
+    float: left;
+}
+
+.descrizione-persona{
+    float: right;
+    width: calc(100% - 80px );
+    text-align: left;
+    padding: 10px 5px;
+}
+
+/* stili descrizione persona*/
+
+.email{
+    color:#00e0ff;
+}
+
+.mansione{
+    font-size: small;
+}
+
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
