@@ -22,3 +22,11 @@ h1{
     color: rgb(255, 0, 157);
     font-weight: 900;
 }
+
+.sotto-sezione{
+    float: left;
+    width: calc(100% / 3 );
+    background-color: aqua;
+    height: 200px;
+    border: 1ps solid black;
+}
