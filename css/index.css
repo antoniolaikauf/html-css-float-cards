@@ -55,14 +55,11 @@ h1{
 .sotto-sezione img {
     width: 80px;
     float: left;
+    margin-right: 20px;
 }
 
 .descrizione-persona{
-    float: right;
-    width: calc(100% - 80px );
-    text-align: left;
-    padding: 10px 5px;
-    overflow: hidden;
+    padding: 10px ;
 }
 
 /* stili descrizione persona*/
